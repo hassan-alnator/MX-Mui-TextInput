@@ -1,0 +1,32 @@
+{
+  "name": "muiinput",
+  "widgetName": "MuiInput",
+  "version": "1.0.0",
+  "description": "Material UI Text Field Input For Mendix",
+  "copyright": "2020 Mendix Technology BV",
+  "author": "Hasan Alnatour",
+  "config": {
+    "widgetPath": "/Users/hasanalnatour/Documents/Mendix/MiChatBot-main/widgets",
+    "projectPath": "/Users/hasanalnatour/Documents/Mendix/MiChatBot-main",
+    "mendixHost": "http://172.20.10.4:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server --open",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.10.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "classnames": "^2.2.6"
+  }
+}
